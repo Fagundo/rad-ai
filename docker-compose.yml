@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  radai:
+    build: .
+    volumes:
+      - /Users/mjfagundo/Documents/GitHub/rad-ai/app:/home/radai/app
+    tty: true        
+    stdin_open: true 
+    ports:
+      - 8000:8000
