@@ -3,7 +3,7 @@
 # A bit hacky, but lets encapsulate the model download in the dockerfile buid 
 # Because it is so large, it makes sense to get from huggingface now
 echo Downloading google/pegasus-newsroom from HugginFace
-echo this may take 5 minutes ....
+echo this may take a few minutes ....
 
 python - <<-EOF
 from transformers import pipeline
